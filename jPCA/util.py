@@ -98,7 +98,7 @@ def plot_trajectory(ax, x, y,
                     circle=True,
                     arrow=True,
                     circle_size=0.05,
-                    arrow_size=0.05):
+                    arrow_size=0.01):
     """
     Plot a single neural trajectory in a 2D plane.
     
@@ -146,7 +146,7 @@ def plot_projections(data_list,
                      axis=None,
                      arrows=True,
                      circles=True,
-                     arrow_size=0.05,
+                     arrow_size=0.01,
                      circle_size=0.05):
     """
     Plot trajectories found via jPCA or PCA. 
