@@ -119,3 +119,7 @@ notebooks/*.html
 .DS_Store
 
 .codegpt
+
+*.mat
+*.png
+*.jpg
